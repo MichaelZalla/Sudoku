@@ -2,7 +2,7 @@ CC = g++
 #CFLAGS = -c -Wall -ggdb -I.
 CFLAGS = -c -ggdb -I.
 LDFLAGS =
-SOURCES = lib/Sudoku.cpp utils/utils.cpp
+SOURCES = lib/Sudoku.cpp utils/utils.cpp main.cpp
 EXECUTABLE = bin/Sudoku
 TESTS = tests/SudokuTest.h
 
